@@ -1,0 +1,180 @@
+@media (max-width: 1199.98px) {
+    .media__title {
+        font-size: 17px;
+    }
+
+    .media__subtitle {
+        font-size: 13px;
+    }
+
+    .about__text-1,
+    .about__text-2 {
+        font-size: 15px;
+    }
+
+    .work__card-body {
+        top: 60%;
+        width: 91%;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    .subtitle:before {
+        left: -4%;
+    }
+
+    .about__social .fab {
+        margin-bottom: 60px;
+    }
+
+    .about__text-2 {
+        margin-bottom: 50px;
+    }
+
+    .about__subtitle {
+        margin-bottom: 50px;
+    }
+
+    .about .col-md-7 {
+        margin-bottom: 50px;
+    }
+
+    .team .col-xl-3 {
+        margin-bottom: 30px;
+    }
+
+    .work__card-body {
+        top: 65%;
+        width: 92%;
+    }
+
+    .features .row {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .features__text {
+        font-size: 14px;
+    }
+
+    .features .col-xl-4 {
+        margin-bottom: 50px;
+    }
+
+    .features__item {
+        padding-bottom: 50px;
+    }
+
+    .contact .col-xl-6 {
+        margin: auto;
+    }
+
+    .contact__title,
+    .contact__text-1,
+    .contact__text-2 {
+        text-align: center;
+    }
+
+    .contact__text-2 {
+        margin-bottom: 45px;
+    }
+
+    .contact__btn {
+        margin: auto;
+    }
+
+    .copy__text {
+        text-align: center;
+        font-size: 13px;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .header-title {
+        font-size: 33px;
+    }
+
+    .header-subtitle {
+        font-size: 15px;
+    }
+
+    .work__card-title {
+        font-size: 14px;
+        padding: 16px;
+    }
+
+    .work__card-body {
+        top: 62.5%;
+        width: 89%;
+    }
+
+    .features__title {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .work__card:hover .work__card-body {
+        opacity: 0;
+    }
+
+}
+
+@media (max-width: 575.98px) {
+    .header-title {
+        font-size: 30px;
+        padding-top: 200px;
+    }
+
+    .header-subtitle {
+        font-size: 14px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .subtitle:before {
+        left: -6%;
+    }
+
+    .header-button__left,
+    .header-button__right {
+        margin-bottom: 200px;
+        padding: 14px 17px;
+    }
+
+    .about__social .fab {
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+
+    .work__card-title {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .work__card-body {
+        top: 80%;
+        width: 95%;
+    }
+
+    .services__text {
+        width: 80%;
+        margin: auto;
+        font-size: 14px;
+    }
+
+    .contact__box {
+        width: 90%;
+        margin: auto;
+    }
+
+    .copy__text {
+        margin-bottom: 25px;
+    }
+
+
+}
