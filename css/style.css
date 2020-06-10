@@ -15,7 +15,10 @@ ul {
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: none;}
+
+.row {
+    margin: 0;
 }
 
 body {
@@ -24,7 +27,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 15px;
+    width: 13px;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -620,4 +623,24 @@ body::-webkit-scrollbar-track {
 
 .copy__social-link:hover {
     color: #23b7a4;
+}
+
+.scroll-btn {
+    height: 60px;
+    width: 60px;
+    outline: none;
+    position: fixed;
+    right: 3%;
+    bottom: 2%;
+    color: #fff;
+    background: #23b7a4;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 35px;
+    border: none;
+    display: none;
+}
+
+.scroll-btn:focus {
+    outline: none;
 }
