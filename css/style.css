@@ -642,6 +642,7 @@ body::-webkit-scrollbar-track {
     display: none;
     padding: 0;
 }
+
 .scroll-btn:focus {
     outline: none;
 }
