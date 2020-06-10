@@ -15,11 +15,12 @@ ul {
 }
 
 a:hover {
-    text-decoration: none;}
-
-.row {
-    margin: 0;
+    text-decoration: none;
 }
+
+/* .row {
+    margin: 0;
+} */
 
 body {
     font-family: 'Quattrocento Sans';
