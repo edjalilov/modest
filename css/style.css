@@ -640,8 +640,8 @@ body::-webkit-scrollbar-track {
     font-size: 35px;
     border: none;
     display: none;
+    padding: 0;
 }
-
 .scroll-btn:focus {
     outline: none;
 }
