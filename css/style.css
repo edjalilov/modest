@@ -69,7 +69,7 @@ body::-webkit-scrollbar-track {
     padding: 7px 10px;
     border: 2px solid;
     border-color: transparent;
-    /* transition: 0.5s; */
+    transition: 0.5s;
 }
 
 .menu__link:hover {
@@ -87,10 +87,10 @@ body::-webkit-scrollbar-track {
     display: inline-block;
 }
 
-.active:hover {
+/* .active:hover {
     color: #23b7a4;
     border-color: #23b7a4;
-}
+} */
 
 .navbar-toggler {
     border: 3px solid #23b7a4;
