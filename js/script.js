@@ -1,5 +1,3 @@
-$(document).ready(function () {
-    $(window).scrollTop(0);
     $(window).scroll(function () {
         let scroll = $(this).scrollTop();
         if (scroll > 500) {
@@ -21,12 +19,12 @@ $(document).ready(function () {
         links.removeClass('active');
         let menuHeight = $('.menu__link').innerHeight();
         let id = $(this).addClass('active').attr('href');
-        let target = $(id).offset().top - menuHeight;
+        let target = $(id).offset().top - menuHeight - 30;
 
 
         $('html').animate({
             scrollTop: target
-        }, 1000)
+        }, )
     })
 
     $(window).scroll(function () {
@@ -39,11 +37,4 @@ $(document).ready(function () {
                 $(this).addClass('active');
             }
         })
-    })
-
-
-
-
-
-
-});
+    });
