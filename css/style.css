@@ -69,16 +69,14 @@ body::-webkit-scrollbar-track {
     padding: 7px 10px;
     border: 2px solid;
     border-color: transparent;
-    transition: 0.5s;
+    /* transition: 0.5s; */
 }
 
 .menu__link:hover {
     color: #a4aead;
-    border-color: #a4aead;
-    border-radius: 4px;
 }
 
-.menu__link_active {
+.active {
     color: #23b7a4;
     border: 2px solid #23b7a4;
     border-radius: 4px;
@@ -89,7 +87,7 @@ body::-webkit-scrollbar-track {
     display: inline-block;
 }
 
-.menu__link_active:hover {
+.active:hover {
     color: #23b7a4;
     border-color: #23b7a4;
 }
