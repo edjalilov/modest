@@ -87,20 +87,13 @@ body::-webkit-scrollbar-track {
     display: inline-block;
 }
 
-/* .active:hover {
-    color: #23b7a4;
-    border-color: #23b7a4;
-} */
-
 .navbar-toggler {
     border: 3px solid #23b7a4;
-
     text-align: center;
 }
 
 .navbar-toggler:focus {
     outline: none;
-
 }
 
 .navbar-toggler-icon {
