@@ -41,7 +41,6 @@ $(document).ready(function () {
         let id = $(this).addClass('active').attr('href');
         let target = $(id).offset().top - menuHeight - 30;
 
-
         $('html').animate({
             scrollTop: target
         }, )

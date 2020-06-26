@@ -154,6 +154,11 @@
 }
 
 @media (max-width: 575.98px) {
+
+    .main__nav {
+        padding: 16px;
+    }
+
     .header {
         top: 1%;
         left: 2%;
