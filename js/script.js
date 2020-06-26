@@ -51,4 +51,16 @@ $(document).ready(function () {
             }
         })
     });
+    
+    let name = document.querySelector('#name');
+    let email = document.querySelector('#email');
+    let textArea = document.querySelector('.contact__box-text');
+    let btn = document.querySelector('.contact__btn');
+    btn.addEventListener('click', function () {
+        let a = name.value = '';
+        let b = email.value = '';
+        let c = textArea.value = '';
+    })
+
+
 });
