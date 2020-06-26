@@ -1,3 +1,8 @@
+$(document).ready(function () {
+    $(window).on('beforeunload', function () {
+        $(window).scrollTop(0);
+    });
+
     $(window).scroll(function () {
         let scroll = $(this).scrollTop();
         if (scroll > 500) {
@@ -8,6 +13,14 @@
     })
 
     $('.scroll-btn').click(function () {
+        $('html').animate({
+            scrollTop: 0
+        }, 1000)
+    })
+
+    let logo = $('.navbar-brand');
+    logo.click(function (e) {
+        e.preventDefault();
         $('html').animate({
             scrollTop: 0
         }, 1000)
@@ -38,3 +51,4 @@
             }
         })
     });
+});
