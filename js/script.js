@@ -3,6 +3,13 @@ $(document).ready(function () {
         $(window).scrollTop(0);
     });
 
+    $('.header-slider').slick({
+        dots: true,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000
+    });
+
     $(window).scroll(function () {
         let scroll = $(this).scrollTop();
         if (scroll > 500) {
@@ -51,7 +58,7 @@ $(document).ready(function () {
             }
         })
     });
-    
+
     let name = document.querySelector('#name');
     let email = document.querySelector('#email');
     let textArea = document.querySelector('.contact__box-text');
