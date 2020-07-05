@@ -28,13 +28,11 @@ body {
 }
 
 body::-webkit-scrollbar {
-    width: 13px;
+    width: 6px;
 }
 
 body::-webkit-scrollbar-thumb {
-    border-radius: 8px;
     background: #1d8f81;
-    border: 2px solid #fff;
 }
 
 body::-webkit-scrollbar-track {
@@ -62,7 +60,7 @@ body::-webkit-scrollbar-track {
     font-family: 'Open Sans';
     font-weight: 600;
     font-size: 14px;
-    width: 85px;
+    width: 88px;
     display: inline-block;
     text-align: center;
     margin: 0 10px;
@@ -376,6 +374,7 @@ body::-webkit-scrollbar-track {
 .work__card {
     border: none;
     margin-bottom: 30px;
+    display: none;
 }
 
 .work__card-body {
@@ -406,16 +405,25 @@ body::-webkit-scrollbar-track {
     margin: 30px auto 60px;
 }
 
-.work__button-link {
+.work__button-show,
+.work__button-hide {
     color: #ffff;
     padding: 15px 20px;
     border: 2px solid #fff;
     text-transform: uppercase;
     border-radius: 5px;
     transition: 0.5s;
+    background: transparent;
 }
 
-.work__button-link:hover {
+.work__button-hide {
+    display: none;
+    padding: 5px 15px;
+    font-size: 25px;
+}
+
+.work__button-show:hover,
+.work__button-hide:hover {
     color: #fff;
     background: #23b7a4;
     border-color: #23b7a4;
